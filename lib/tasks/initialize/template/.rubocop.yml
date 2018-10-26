@@ -37,3 +37,6 @@ Metrics/CyclomaticComplexity:
 
 Metrics/MethodLength:
   Max: 16
+
+Bundler/OrderedGems:
+  Enabled: false

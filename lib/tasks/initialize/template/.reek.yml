@@ -1,0 +1,20 @@
+detectors:
+  # You can disable smells completely
+  IrresponsibleModule:
+    enabled: false
+  DuplicateMethodCall:
+    enabled: false
+  TooManyStatements:
+    enabled: false
+  InstanceVariableAssumption:
+    enabled: false
+  MissingSafeMethod:
+    enabled: false
+  UncommunicativeVariableName:
+    enabled: false
+  NilCheck:
+    enabled: false
+  FeatureEnvy:
+    enabled: false
+exclude_paths:
+  - db/migrate

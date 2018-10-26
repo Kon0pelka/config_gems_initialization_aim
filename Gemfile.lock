@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    config_gems_initialization_aim (0.1.0)
+    config_gems_initialization_aim (0.1.1)
 
 GEM
   remote: https://rubygems.org/

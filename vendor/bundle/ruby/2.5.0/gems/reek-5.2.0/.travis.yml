@@ -1,0 +1,30 @@
+sudo: false
+dist: trusty
+cache: bundler
+language: ruby
+bundler_args: --without debugging
+script: bundle exec rake ci
+rvm:
+  - 2.3
+  - 2.4
+  - 2.5
+  - jruby-9.1.15.0
+  - jruby-head
+  - ruby-head
+  - rubinius-3
+matrix:
+  allow_failures:
+    - rvm: jruby-9.1.15.0
+    - rvm: jruby-head
+    - rvm: ruby-head
+    - rvm: rubinius-3
+  fast_finish: true
+notifications:
+  email:
+    - timo.roessner@googlemail.com
+    - matijs@matijs.net
+    - chastell@chastell.net
+  irc: irc.freenode.org#reek
+branches:
+  only:
+    - master

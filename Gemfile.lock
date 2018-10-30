@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    config_gems_initialization_aim (0.1.2)
+    config_gems_initialization_aim (0.1.3)
       overcommit
       reek
       rubocop

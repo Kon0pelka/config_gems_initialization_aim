@@ -1,7 +1,10 @@
 PATH
   remote: .
   specs:
-    config_gems_initialization_aim (0.1.1)
+    config_gems_initialization_aim (0.1.2)
+      overcommit
+      reek
+      rubocop
 
 GEM
   remote: https://rubygems.org/
@@ -62,10 +65,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   config_gems_initialization_aim!
-  overcommit
   rake (~> 10.0)
-  reek
-  rubocop
 
 BUNDLED WITH
    1.16.4

@@ -21,8 +21,16 @@ Or install it yourself as:
     $ gem install config_gems_initialization_aim
 
 ## Usage
-
-TODO: Write usage instructions here
+Add config file for reek:
+```bundle exec rake initialize:reek```
+Add config file for gitlab:
+```bundle exec rake initialize:gitlab```
+Add config file for editorconfig:
+```bundle exec rake initialize:editorconfig```
+Add config file for  rubocop:
+```bundle exec rake initialize:rubocop``` 
+Initializetion all configs:
+```bundle exec rake initialize:all``` 
 
 ## Development
 
